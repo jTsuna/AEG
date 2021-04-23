@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.4/tailwind.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    <title>Upload File</title>
+</head>
+
+<body>
+    <div class="w-full h-full font-sans bg-gray-100 bg-opacity-75 bg-no-repeat bg-cover"
+        style="background-image: url('img/mapuabg.png');">
+
+        <!--Nav Bar-->
+        <div class="flex items-center w-full h-auto py-3 text-white bg-red-800 border-b-2 border-yellow-400">
+            <div class="flex items-center justify-center ml-10">
+                <img src="img/Mapua Logo-01-01.png" alt="mapua logo" class="w-28">
+                <span class="ml-3 text-xl font-extrabold ">Mapua SGE <br> Admin</br>
+            </div>
+            <div class="ml-28 lg:ml-32">
+                <ul class="flex flex-row space-x-10 text-xl font-semibold">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ACCOUNTS</a></li>
+                    <li><a href="/">SGE TYPES</a></li>
+                    <li><a href="/">STUDENT DATA</a></li>
+                </ul>
+            </div>
+            <div class="ml-64">
+                <span class="text-lg">Name</span>
+            </div>
+        </div>
+        <!--End of Nav Bar-->
+
+        <!--Main Content-->
+        <div class="flex items-center justify-center mt-20 text-gray-600 mx-36">
+            <div class="w-full h-auto px-20 py-6 bg-white bg-opacity-75 border-b-8 border-yellow-400 rounded-2xl">
+                <div class="flex flex-row items-center justify-center space-x-10">
+                    <a href="/"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+                        </svg></a>
+                    <span class="text-4xl font-bold underline ">
+                        ADD STUDENT
+                    </span>
+                </div>
+                <div
+                    class="flex items-center justify-center p-10 mt-20 bg-gray-200 border-4 border-gray-600 border-dashed rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" />
+                        <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 11h4m-2-2v4" />
+                    </svg>
+                    <span class="ml-3 text-xl font-bold">Upload Files Here</span>
+                </div>
+                <div class="flex flex-row items-center justify-center mt-20 space-x-10">
+                    <button
+                        class="px-10 py-2 text-xl font-bold tracking-wider text-white bg-red-500 border-2 border-red-500 rounded-lg">
+                        CANCEL
+                    </button>
+                    <button
+                        class="flex items-center justify-center px-10 py-2 text-xl font-bold tracking-wider text-white bg-yellow-600 border-2 border-yellow-600 rounded-lg">
+                        UPLOAD CSV FILE
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-3 text-white" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path
+                                d="M5.5 13a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 13H11V9.413l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13H5.5z" />
+                            <path d="M9 13h2v5a1 1 0 11-2 0v-5z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
