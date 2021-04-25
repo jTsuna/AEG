@@ -34,7 +34,7 @@
 
         <!--Main Content-->
         <div class="flex items-center justify-center mt-20 text-gray-600 mx-36">
-            <div class="w-full h-auto px-20 py-6 bg-white bg-opacity-75 border-b-8 border-yellow-400 rounded-2xl">
+            <div class="w-full h-auto px-20 py-6 bg-white border-b-8 border-yellow-400 bg-opacity-90 rounded-2xl">
                 <div class="flex flex-row items-center justify-center space-x-10">
                     <a href="/"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
@@ -46,7 +46,13 @@
                     </span>
                 </div>
                 <div class="flex items-center justify-center mt-10 ">
-                    <input type="text" placeholder="Account Type" class="px-10 py-1 border border-gray-600 rounded-lg">
+                    <select class="px-5 py-1 border border-gray-600 rounded-lg">
+                        <option value="1">Admin</option>
+                        <option value="2">School Dean
+                        </option>
+                        <option value="3">ILRAD Director</option>
+                        <option value="4">ICEP Staff</option>
+                    </select>
                 </div>
                 <div class="grid grid-cols-3 gap-6 mt-6 ">
                     <input type="text" placeholder="Last name" class="px-10 py-1 border border-gray-600 rounded-lg">
@@ -54,7 +60,26 @@
                     <input type="text" placeholder="Gender" class="px-10 py-1 border border-gray-600 rounded-lg">
                 </div>
                 <div class="grid grid-cols-2 gap-6 mt-6">
-                    <input type="text" placeholder="Department" class="px-10 py-1 border border-gray-600 rounded-lg">
+                    <select class="px-5 py-1 border border-gray-600 rounded-lg overfolw-y-auto">
+                        <option value="1">School of Architecture and Planning, Industrial Design, and the Built
+                            Environment</option>
+                        <option value="2">School of Chemical, Biological, and Materials Engineering and Sciences
+                        </option>
+                        <option value="3">School of Civil, Environmental & Sanitary and Geological Engineering</option>
+                        <option value="4">School of Electrical, Electronics, and Computer Engineering</option>
+                        <option value="5">School of Graduate Studies</option>
+                        <option value="6">School of Industrial Engineering and Engineering Management</option>
+                        <option value="7">School of Media Studies</option>
+                        <option value="8">School of Mechanical and Manufacturing Engineering</option>
+                        <option value="9">Department of Mathematics</option>
+                        <option value="10">Department of Physical Education and Artes</option>
+                        <option value="11">School of Social Sciences and Education</option>
+                        <option value="12">Department of Physics</option>
+                        <option value="13">Enrique T. Yuchengco School of Business and Management</option>
+                        <option value="14">School of Information Technology</option>
+                        <option value="15">Office of International Career and Exchange Program</option>
+                        <option value="16">Department of Arts and Letters</option>
+                    </select>
                     <input type="text" placeholder="Role" class="px-10 py-1 border border-gray-600 rounded-lg">
                 </div>
                 <div class="grid grid-cols-2 gap-6 mt-6">
