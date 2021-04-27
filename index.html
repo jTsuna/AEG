@@ -16,7 +16,7 @@
         <div class="flex items-center w-full h-auto py-3 font-sans text-white bg-red-800 border-b-2 border-yellow-400">
             <div class="flex items-center justify-center ml-10">
                 <img src="img/Mapua Logo-01-01.png" alt="mapua logo" class="w-16">
-                <span class="ml-3 text-xl font-extrabold ">Mapua SGE <br> Admin</br>
+                <span class="self-center ml-3 text-xl font-extrabold text-center">Mapua SGE <br> Admin</br>
             </div>
             <div class="ml-28 lg:ml-32">
                 <ul class="flex flex-row space-x-10 text-xl font-semibold">
@@ -26,24 +26,25 @@
                     <li><a href="/">STUDENT DATA</a></li>
                 </ul>
             </div>
-            <div class="ml-64">
+            <div class="md:ml-64">
                 <span class="text-lg">Name</span>
             </div>
         </div>
         <!--End of Nav Bar-->
 
         <!--Main Content-->
-        <div class="mt-6 text-gray-600 mx-44 bg-white p-10 rounded-xl bg-opacity-90 border-b-8 border-red-800">
-            <div class="flex justify-between">
+        <div
+            class="w-auto h-auto p-10 mt-6 text-gray-600 bg-white border-b-8 border-red-800 md:mx-44 md:rounded-xl bg-opacity-90">
+            <div class="flex justify-center md:justify-between">
                 <input type="text" placeholder="Search" class="w-auto px-6 py-1 border-2 border-gray-400 rounded-full ">
                 <button class="px-8 text-white bg-green-600 border-2 border-green-600 rounded-full">
                     Add User
                 </button>
             </div>
-            <div class="grid grid-cols-2 mt-6 gap-x-10">
+            <div class="grid grid-cols-2 mt-6 gap-x-6">
                 <!--Admin-->
                 <div class="w-auto h-auto p-10 bg-white border-l-8 border-yellow-400 shadow-md rounded-l-xl">
-                    <a href="#" class="flex justify-between">
+                    <a href="#" class="flex flex-col md:flex-row md:justify-between">
                         <div>
                             <span class="text-xs text-yellow-400">ADMIN ACCOUNTS</span>
                             <br>
@@ -60,7 +61,7 @@
                 </div>
                 <!--Users-->
                 <div class="w-auto h-auto p-10 bg-white border-l-8 border-green-600 shadow-md rounded-l-xl">
-                    <a href="#" class="flex justify-between">
+                    <a href="#" class="flex flex-col md:flex-row md:justify-between">
                         <div>
                             <span class="text-xs text-yellow-400">USER ACCOUNTS</span>
                             <br>
@@ -77,45 +78,46 @@
                 </div>
             </div>
             <!--Users Table-->
-            <div class="mt-6 border-4 border-gray-600 rounded-lg shadow-lg">
-                <table class="w-full text-center ">
-                    <thead class="flex w-full text-gray-600">
-                        <tr class="flex w-full mb-4 border-b-2">
-                            <th class="w-1/4 p-2">Name</th>
-                            <th class="w-1/4 p-2">Email</th>
-                            <th class="w-1/4 p-2">Account Type</th>
-                            <th class="w-1/4 p-2">Actions</th>
+            <div class="flex items-center justify-center mt-6 overflow-auto">
+                <table class="w-auto ">
+                    <thead class="w-auto text-gray-600 ">
+                        <tr class="w-auto mb-4 border-b-2 ">
+                            <th class="w-auto p-2">Name</th>
+                            <th class="w-auto p-2">Email</th>
+                            <th class="w-auto p-2">Account Type</th>
+                            <th class="w-auto p-2">Actions</th>
                         </tr>
                     </thead>
-                    <tbody
-                        class="flex flex-col items-center justify-between w-full h-auto overflow-y-scroll bg-grey-light">
-                        <tr class="flex w-full mb-4 border-b-2">
-                            <td class="w-1/4 p-2">SUPER ADMIN</td>
-                            <td class="w-1/4 p-2">sa@mapua.edu.ph</td>
-                            <td class="w-1/4 p-2">Super Admin</td>
-                            <td class="w-1/4 p-2"><button class="">Details >></button></td>
+                    <tbody class="items-center justify-between w-auto h-auto overflow-y-scroll bg-grey-light">
+                        <tr class="w-auto mb-4 border-b-2 ">
+                            <td class="w-auto p-2">SUPER ADMIN</td>
+                            <td class="w-auto p-2">sa@mapua.edu.ph</td>
+                            <td class="w-auto p-2">Super Admin</td>
+                            <td class="w-auto p-2"><button class="">Details >></button></td>
                         </tr>
-                        <tr class="flex w-full mb-4 border-b-2">
-                            <td class="w-1/4 p-2">ADMIN</td>
-                            <td class="w-1/4 p-2">admin@mapua.edu.ph</td>
-                            <td class="w-1/4 p-2">Admin</td>
-                            <td class="w-1/4 p-2"><button class="">Details >></button></td>
+                        <tr class="w-auto mb-4 border-b-2 ">
+                            <td class="w-auto p-2">ADMIN</td>
+                            <td class="w-auto p-2">admin@mapua.edu.ph</td>
+                            <td class="w-auto p-2">Admin</td>
+                            <td class="w-auto p-2"><button class="">Details >></button></td>
                         </tr>
-                        <tr class="flex w-full mb-4 border-b-2">
-                            <td class="w-1/4 p-2">DEAN</td>
-                            <td class="w-1/4 p-2">dean@mapua.edu.ph</td>
-                            <td class="w-1/4 p-2">Dean</td>
-                            <td class="w-1/4 p-2"><button class="">Details >></button></td>
+                        <tr class="w-auto mb-4 border-b-2 ">
+                            <td class="w-auto p-2">DEAN</td>
+                            <td class="w-auto p-2">dean@mapua.edu.ph</td>
+                            <td class="w-auto p-2">Dean</td>
+                            <td class="w-auto p-2"><button class="">Details >></button></td>
                         </tr>
-                        <tr class="flex w-full mb-4 border-b-2">
-                            <td class="w-1/4 p-2">Student</td>
-                            <td class="w-1/4 p-2">student@mymail.mapua.edu.ph</td>
-                            <td class="w-1/4 p-2">Student</td>
-                            <td class="w-1/4 p-2"><button class="">Details >></button></td>
+                        <tr class="w-full mb-4 border-b-2 ">
+                            <td class="w-auto p-2">Student</td>
+                            <td class="w-auto p-2">student@mymail.mapua.edu.ph</td>
+                            <td class="w-auto p-2">Student</td>
+                            <td class="w-auto p-2"><button class="">Details >></button></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+
+
         </div>
 
     </div>
