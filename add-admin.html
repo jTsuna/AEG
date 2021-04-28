@@ -11,8 +11,7 @@
 <!--1920X1080-->
 
 <body>
-    <div class="w-screen h-screen font-sans bg-gray-100 bg-no-repeat bg-cover"
-        style="background-image: url('img/mapuabg.png');">
+    <div class="w-screen h-screen font-sans bg-no-repeat bg-cover" style="background-image: url('img/mapuabg.png');">
 
         <!--Nav Bar-->
         <div class="flex items-center w-full h-auto py-3 text-white bg-red-800 border-b-2 border-yellow-400">
@@ -35,8 +34,8 @@
         <!--End of Nav Bar-->
 
         <!--Main Content-->
-        <div class="flex items-center justify-center mt-20 text-gray-600 mx-36">
-            <div class="w-full h-auto px-20 py-6 bg-white border-b-8 border-yellow-400 bg-opacity-90 rounded-2xl">
+        <div class="flex items-center justify-center mt-20 text-gray-600 md:mx-36 mx-10">
+            <div class="w-full h-auto px-20 py-6 bg-white border-b-8 border-yellow-400 bg-opacity-90 md:rounded-2xl">
                 <div class="flex flex-row items-center justify-center space-x-10">
                     <a href="/"><svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-blue-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
@@ -47,12 +46,12 @@
                         ADD ADMIN
                     </span>
                 </div>
-                <div class="grid grid-cols-3 gap-6 mt-10 ">
+                <div class="grid md:grid-cols-3 gap-6 mt-10 grid-cols-1">
                     <input type="text" placeholder="Last name" class="px-10 py-1 border border-gray-600 rounded-lg">
                     <input type="text" placeholder="First name" class="px-10 py-1 border border-gray-600 rounded-lg">
                     <input type="text" placeholder="Middle name" class="px-10 py-1 border border-gray-600 rounded-lg">
                 </div>
-                <div class="grid grid-cols-2 gap-6 mt-6">
+                <div class="grid md:grid-cols-2 gap-6 mt-6 grid-cols-1">
                     <select class="px-5 py-1 border border-gray-600 rounded-lg">
                         <option value="1">School of Architecture and Planning, Industrial Design, and the Built
                             Environment</option>
@@ -76,11 +75,11 @@
                     <input type="text" placeholder="Employee Number"
                         class="px-10 py-1 border border-gray-600 rounded-lg">
                 </div>
-                <div class="grid grid-cols-2 gap-6 mt-6">
+                <div class="grid md:grid-cols-2 gap-6 mt-6 grid-cols-1">
                     <input type="text" placeholder="Email" class="px-10 py-1 border border-gray-600 rounded-lg">
                     <input type="password" placeholder="Password" class="px-10 py-1 border border-gray-600 rounded-lg">
                 </div>
-                <div class="grid grid-cols-3 gap-6 mt-6">
+                <div class="grid md:grid-cols-3 gap-6 mt-6 grid-cols-1">
                     <input type="text" placeholder="Contact" class="px-10 py-1 border border-gray-600 rounded-lg">
                     <input type="text" placeholder="School Year" class="px-10 py-1 border border-gray-600 rounded-lg">
                     <select class="px-5 py-1 border border-gray-600 rounded-lg">
@@ -91,7 +90,7 @@
                         <option value="4">ICEP Staff</option>
                     </select>
                 </div>
-                <div class="flex flex-row items-center justify-center mt-20 space-x-10">
+                <div class="flex flex-col md:flex-row items-center justify-center mt-20 md:space-x-10">
                     <button
                         class="px-10 py-2 text-xl font-bold tracking-wider text-white bg-red-500 border-2 border-red-500 rounded-lg">
                         RESET
